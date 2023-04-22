@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>M.U. Harry Potter M.U.</title>
+     <link rel="stylesheet" type="text/css" href="static/css/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Hogwarts Characters Results</h1>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Date of Birth</th>
+            <th>Ancestry</th>
+            <th>Actor</th>
+            <th>Patronus</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for character in characters %}
+            <tr>
+              <td>{{ character['name'] }}</td>
+              <td>{{ character['dateOfBirth'] }}</td>
+              <td>{{ character['ancestry'] }}</td>
+              <td>{{ character['actor'] }}</td>
+              <td>{{ character['patronus'] }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </main>
+    <!-- link to your JavaScript file -->
+  </body>
+</html>

@@ -1,0 +1,193 @@
+/* Set global styles */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 28px;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Style the top container */
+.top-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.title-text {
+  text-align: center;
+}
+
+.title-text h1 {
+  font-size: 48px;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.title-text h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.pro {
+  color: #f9c123;
+}
+
+/* Style the middle container */
+.middle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.profile {
+  text-align: center;
+}
+
+.picture {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.profile h2 {
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.intro {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+/* Style the form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+label {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+select {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  background-color: #1b1b1b;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #f9c123;
+}
+
+/* Style the contact section */
+.contact-me {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-me h2 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.contact-me h3 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.contact-message {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+.contact_with_me {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #1b1b1b;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+  background-color: }
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* adjust this value as needed */
+}
+
+/* Style the table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #1b1b1b;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
